@@ -1,0 +1,71 @@
+/*
+Custom Css
+*/
+:root {
+    --primary: #ff4d6d; /* rosado moderno */
+}
+
+.text-success {
+    color: var(--primary) !important;
+}
+
+.btn-success {
+    background-color: var(--primary) !important;
+    border-color: var(--primary) !important;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.navbar {
+    background-color: #ffffff !important;
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.card {
+    border: none;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.btn {
+    border-radius: 30px;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.carousel-item {
+    min-height: 500px;
+}
+
+.carousel-item h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
